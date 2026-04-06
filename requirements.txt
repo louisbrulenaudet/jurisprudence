@@ -2,7 +2,7 @@
 #    uv pip compile pyproject.toml -o requirements.txt
 aiohappyeyeballs==2.4.0
     # via aiohttp
-aiohttp==3.10.5
+aiohttp==3.13.3
     # via
     #   datasets
     #   fsspec
@@ -31,7 +31,7 @@ dill==0.3.8
     #   multiprocess
 duckdb==1.1.0
     # via jurisprudence (pyproject.toml)
-filelock==3.15.4
+filelock==3.20.3
     # via
     #   datasets
     #   huggingface-hub
@@ -43,7 +43,7 @@ fsspec==2024.6.1
     # via
     #   datasets
     #   huggingface-hub
-h11==0.14.0
+h11==0.16.0
     # via httpcore
 httpcore==1.0.5
     # via httpx
@@ -59,7 +59,7 @@ idna==3.8
     #   httpx
     #   requests
     #   yarl
-jinja2==3.1.4
+jinja2==3.1.6
     # via jurisprudence (pyproject.toml)
 markdown-it-py==3.0.0
     # via rich
@@ -104,7 +104,7 @@ pyyaml==6.0.2
     #   huggingface-hub
 regex==2024.7.24
     # via tiktoken
-requests==2.32.3
+requests==2.33.0
     # via
     #   datasets
     #   huggingface-hub
@@ -132,7 +132,7 @@ typing-extensions==4.12.2
     #   pydantic-core
 tzdata==2024.1
     # via pandas
-urllib3==2.2.2
+urllib3==2.6.3
     # via requests
 xxhash==3.5.0
     # via datasets
